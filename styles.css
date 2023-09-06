@@ -41,6 +41,10 @@ body {
   background-color: white;
 }
 
+.logo {
+  border: none;
+}
+
 .button-primary {
   background-color: #ffa41b;
   color: white;
@@ -68,6 +72,8 @@ body {
 }
 
 .text-field {
+  height: 40px;
+  background-color: white;
   padding: 8px;
   border: 2px solid #ffa41b;
   border-radius: 8px;
@@ -79,7 +85,7 @@ body {
   text-decoration: none;
 }
 
-.post-ad-button-text-long {
+.desktop-long-label {
   display: none;
 }
 
@@ -137,10 +143,10 @@ body {
 }
 
 @media screen and (min-width: 720px) {
-  .post-ad-button-text-short {
+  .mobile-short-label {
     display: none;
   }
-  .post-ad-button-text-long {
+  .desktop-long-label {
     display: initial;
   }
 
