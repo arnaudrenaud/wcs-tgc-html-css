@@ -101,9 +101,10 @@ body {
   gap: 16px;
 }
 
-.ad-card {
+.ad-card-container {
   border-radius: 8px;
   border: 1px solid lightgray;
+  color: inherit;
   background-color: white;
 }
 
