@@ -71,24 +71,17 @@ h1 {
   color: white;
 }
 
-.main-actions {
-  display: flex;
-  gap: 8px;
-  flex-grow: 1;
-  justify-content: end;
-}
-
 .text-field-with-button {
   display: flex;
   flex-grow: 1;
-  justify-content: end;
+  justify-content: center;
   gap: 4px;
 }
 
 .main-search-field {
   width: 100%;
   min-width: 120px;
-  max-width: 300px;
+  max-width: 360px;
   flex-grow: 1;
 }
 
