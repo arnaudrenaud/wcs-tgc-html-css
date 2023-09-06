@@ -39,6 +39,7 @@ body {
   font-weight: bold;
   color: #ffa41b;
   background-color: white;
+  cursor: pointer;
 }
 
 .logo {
