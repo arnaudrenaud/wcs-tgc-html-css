@@ -9,20 +9,40 @@ body {
   background-color: #f5f5f5;
 }
 
-.menu {
+h1 {
+  margin: 0;
+}
+
+.header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
   border-bottom: 1px solid lightgray;
-  padding: 8px;
+  padding: 10px;
+  background-color: white;
+}
+
+.main-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   color: #ffa41b;
-  background-color: white;
+}
+
+.categories-navigation {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  padding: 16px 10px 6px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.category-navigation-link {
+  text-decoration: unset;
+  color: inherit;
 }
 
 .button {
@@ -93,7 +113,7 @@ body {
 .main-content {
   max-width: 832px;
   padding: 0 16px;
-  margin: 84px auto 48px;
+  margin: 120px auto 48px;
 }
 
 .recent-ads {
@@ -150,6 +170,12 @@ body {
   }
   .desktop-long-label {
     display: initial;
+  }
+
+  .categories-navigation {
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .ad-details-image-container {
