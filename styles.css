@@ -187,8 +187,8 @@ h1 {
   align-content: baseline;
 }
 
-.ad-details-title {
-  margin: 0;
+.ad-details-price {
+  font-weight: bold;
 }
 
 .separator {
